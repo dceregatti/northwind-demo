@@ -19,7 +19,7 @@ with
               ,cast(postal_code as string) as func_cep
               ,cast(country as string) as func_pais
               ,cast(notes	as string) as func_notas
-              ,cast(reports_to as string) as id_gerente
+              ,cast(reports_to as int) as id_gerente
         from fonte_funcionarios
 
     )
